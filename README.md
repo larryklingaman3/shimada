@@ -27,18 +27,22 @@ This project focused on developing offensive security automation skills by build
 This project strengthened my Python programming skills, reinforced knowledge of AD attack surfaces, and provided experience creating custom tools for red-team style offensive operations.
 
 
-**Active Directory Enviornment and Code Output**
-_Ref 1: AD Enviornment_
+## Evidence 
+
+**Ref 1: AD Environment**  
 <img width="1920" height="1057" alt="image" src="https://github.com/user-attachments/assets/9fd84b7c-3356-4630-8fed-9946f07708d6" />
 
-_Ref 2: Script Output_
-<img width="1919" height="893" alt="image" src="https://github.com/user-attachments/assets/9d77970b-1e2c-4b05-b8a4-89920bff2456" />
-<img width="1907" height="827" alt="image" src="https://github.com/user-attachments/assets/5ef129de-118c-47d7-b328-de270a06dbff" />
-<img width="1912" height="475" alt="image" src="https://github.com/user-attachments/assets/32b1009c-1aca-4d22-af7d-05e7c2f324b8" />
+**Ref 2: Script Output**  
+<img width="1919" height="893" alt="image" src="https://github.com/user-attachments/assets/9d77970b-1e2c-4b05-b8a4-89920bff2456" />  
+<img width="1907" height="827" alt="image" src="https://github.com/user-attachments/assets/5ef129de-118c-47d7-b328-de270a06dbff" />  
+<img width="1912" height="475" alt="image" src="https://github.com/user-attachments/assets/32b1009c-1aca-4d22-af7d-05e7c2f324b8" />  
 
-_Ref 3: Output Files_
-<img width="1908" height="407" alt="image" src="https://github.com/user-attachments/assets/50112a78-b99c-4222-8a83-04deefad7365" />
-<img width="1910" height="710" alt="image" src="https://github.com/user-attachments/assets/062129ae-4625-41f8-9452-22a845dbd760" />
+**Ref 3: Output Files**  
+<img width="1908" height="407" alt="image" src="https://github.com/user-attachments/assets/50112a78-b99c-4222-8a83-04deefad7365" />  
+<img width="1910" height="710" alt="image" src="https://github.com/user-attachments/assets/062129ae-4625-41f8-9452-22a845dbd760" />  
+
+
+
 
 
 
