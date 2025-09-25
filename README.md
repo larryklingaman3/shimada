@@ -1,16 +1,31 @@
-# shimada
-Python script to automatically enumerate and exploit Active Directory
+# Shimada
 
-**Overview**
+## Project Overview
+This project focused on developing offensive security automation skills by building a Python tool to enumerate and exploit Active Directory. Instead of relying on existing tools, I created a custom port scanner using Python’s socket and threading libraries (200 threads) to practice raw socket programming. The script identifies common services such as SMB, HTTP, Kerberos, and LDAP, then provides options for enumeration and exploitation. Output is saved to files to reduce console clutter. The tool was tested against the WaterExecution VulnAD lab, with plans to expand functionality (e.g., automated SMB share searching and modular exploit options).
 
-The goal of this project was to further develop my offensive python skills by writing a script to automatically enumerate and exploit Active Directory. Since this is not meant to be used on a production enviornment, I wrote a port scanner from scratch that uses 200 threads instead of just using nmap T5 in order to practice using the Python socket module. From the output of the port scan, the script verifies if common services such as SMB, HTTP, Kerberos, LDAP, etc are open and gives the user the choice to enumerate/exploit. The script saves output to designated files in order to reduce visual clutter from the output. I wrote and tested the script against the WaterExecution VulnAD github script. In the future, I would like to re-write this script as my red teaming skills advance and I am able to automate more of the process. In the near futute for this script I would like to add functionality to automatically search inside of SMB shares and list any files found in the output of the script. 
+## Key Achievements
+- Developed a custom multithreaded port scanner from scratch in Python.  
+- Automated detection and enumeration of common AD-related services.  
+- Implemented structured output handling for cleaner reporting.  
+- Validated tool functionality against a vulnerable AD environment (VulnAD).  
 
+## Technical Skills Demonstrated
+- Offensive Python development and automation.  
+- Active Directory enumeration and exploitation concepts.  
+- Proficiency with Python libraries: `socket`, `threading`, `subprocess`, `re`, `sys`.  
+- Building, testing, and refining scripts in a controlled lab environment.  
 
+## Process Summary
+1. Built a custom multithreaded port scanner in Python.  
+2. Verified open services (SMB, HTTP, Kerberos, LDAP, etc.).  
+3. Implemented logic to allow user-driven enumeration and exploitation.  
+4. Directed scan and enumeration results into structured output files.  
+5. Tested the script against the WaterExecution VulnAD environment.  
+6. Planned improvements such as automated SMB share enumeration and modular exploit expansion.  
 
-**Skills Learned**
+## Outcome
+This project strengthened my Python programming skills, reinforced knowledge of AD attack surfaces, and provided experience creating custom tools for red-team style offensive operations.
 
-- Active Directory enumeration and exploitation tactics
-- Enhancing my proficeicy of Python libraries such as socket, threading, re, sys, and subprocess
 
 **Active Directory Enviornment and Code Output**
 _Ref 1: AD Enviornment_
